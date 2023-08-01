@@ -138,6 +138,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #ff42a508;
+    margin-bottom: 120px;
 
 }
 
@@ -157,7 +158,8 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-.btn-gammer{
+
+.btn-gammer {
     border-radius: 30px;
     background-color: #FF42A5;
     padding: 15px 30px;
@@ -166,19 +168,146 @@ body {
     color: #fff;
     border: none;
     cursor: pointer;
-    
+
 }
-.btn-gammer:hover{
+
+.btn-gammer:hover {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     transition: calc(00.5s);
 }
-.our-purpose{
+
+.our-purpose {
     text-align: center;
 }
-.gammer-img{
-  
+
+/* online game and cards style */
+
+
+.online-games {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
 }
 
+.funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.cards-title {
+    text-align: center;
+}
+
+.cards-paragraph {
+    text-align: center;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+
+
+}
+
+.cards {
+    margin-top: 10px;
+}
+
+/* play games section */
+.play-games-section {
+    display: flex;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.play-games {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.no-downloads {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+
+.play-games-second-img {
+    position: relative;
+    bottom: 200px;
+    right: 50px;
+}
+
+/* careers style */
+
+.careers-container {
+    display: flex;
+    background-color: #F948B2;
+    width: 1500px;
+    height: 800px;
+    margin-bottom: 150px;
+}
+
+.careers {
+
+    margin-left: 150px;
+}
+
+.careers-title {
+    padding-top: 50px;
+    color: #fff;
+    font-size: 48px;
+}
+
+.careers-content {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.careers-description {
+    display: flex;
+    gap: 10px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.see-all {
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #F948B2;
+    border: none;
+    cursor: pointer;
+
+}
+.see-all:hover{
+    transition: calc(0.5s);
+    background: transparent;
+    border: 1px solid white;
+    color: #fff;
+}
+/* more games section */
+.explore-more-games {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+
+}
 
 @media screen and (max-width:576px) {
 
