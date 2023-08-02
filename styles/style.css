@@ -209,15 +209,14 @@ body {
 }
 
 .cards-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
-
-
+    display: flex;
 }
 
-.cards {
+.cards-container .cards {
     margin-top: 10px;
+    width: 200px;
+    gap: 20px;
+    margin: 0 auto;
 }
 
 /* play games section */
@@ -256,8 +255,8 @@ body {
 .careers-container {
     display: flex;
     background-color: #F948B2;
-    width: 1500px;
-    height: 800px;
+    width: 100%;
+    height: 100%;
     margin-bottom: 150px;
 }
 
@@ -290,34 +289,47 @@ body {
     padding: 15px 30px;
     font-size: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     color: #F948B2;
     border: none;
     cursor: pointer;
 
 }
-.see-all:hover{
+
+.see-all:hover {
     transition: calc(0.5s);
     background: transparent;
     border: 1px solid white;
     color: #fff;
 }
+
 /* more games section */
 .explore-more-games {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+}
+.explore-more-games a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #0B0223;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background: #0B0223;
     text-align: center;
 
 }
 
-@media screen and (max-width:576px) {
-
-    .header-container,
-    .banner {
-        flex-direction: column;
-    }
-
-    .banner {
-        background-image: none;
-    }
-
+footer h3 {
+    font-size: 45px;
 }
+
+footer a,
+p {
+    text-decoration: none;
+    color: white;
+}
+
